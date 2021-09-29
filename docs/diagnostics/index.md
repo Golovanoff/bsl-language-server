@@ -8,16 +8,17 @@
 
 ## Список реализованных диагностик
 
-Общее количество: **141**
+Общее количество: **143**
 
 * Потенциальная уязвимость: **4**
 * Уязвимость: **3**
 * Ошибка: **44**
-* Дефект кода: **90**
+* Дефект кода: **92**
 
 
 | Ключ | Название | Включена по умолчанию | Важность | Тип | Тэги |
 | --- | --- | :-: | --- | --- | --- |
+ [BadWords](BadWords.md) | Запрещенные слова | Нет | Важный | Дефект кода | `design` 
  [BeginTransactionBeforeTryCatch](BeginTransactionBeforeTryCatch.md) | Нарушение правил работы с транзакциями для метода 'НачатьТранзакцию' | Да | Важный | Ошибка | `standard` 
  [CachedPublic](CachedPublic.md) | Кеширование программного интерфейса | Да | Важный | Дефект кода | `standard`<br>`design` 
  [CanonicalSpellingKeywords](CanonicalSpellingKeywords.md) | Каноническое написание ключевых слов | Да | Информационный | Дефект кода | `standard` 
@@ -88,6 +89,7 @@
  [LogicalOrInTheWhereSectionOfQuery](LogicalOrInTheWhereSectionOfQuery.md) | Использование логического "ИЛИ" в секции "ГДЕ" запроса | Да | Важный | Дефект кода | `sql`<br>`performance`<br>`standard` 
  [MagicDate](MagicDate.md) | Магические даты | Да | Незначительный | Дефект кода | `badpractice`<br>`brainoverload` 
  [MagicNumber](MagicNumber.md) | Магические числа | Да | Незначительный | Дефект кода | `badpractice` 
+ [MetadataBorders](MetadataBorders.md) | Границы метаданных | Нет | Информационный | Дефект кода | `design` 
  [MetadataObjectNameLength](MetadataObjectNameLength.md) | Имена объектов метаданных не должны превышать допустимой длины наименования | Да | Важный | Ошибка | `standard` 
  [MethodSize](MethodSize.md) | Ограничение на размер метода | Да | Важный | Дефект кода | `badpractice` 
  [MissingCodeTryCatchEx](MissingCodeTryCatchEx.md) | Конструкция "Попытка...Исключение...КонецПопытки" не содержит кода в исключении | Да | Важный | Ошибка | `standard`<br>`badpractice` 
